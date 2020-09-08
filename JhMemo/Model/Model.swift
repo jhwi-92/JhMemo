@@ -18,7 +18,7 @@ class Memo {
         insertDate = Date()
     }
     
-    //범위를 배열에 미리 저장?
+    //범위를 배열에 미리 저장?(임시)
     static var dummyMemoList = [
         Memo(content: "ㅎㅎ"),
         Memo(content: "메모 테스트")
