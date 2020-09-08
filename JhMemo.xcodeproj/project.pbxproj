@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E94C84F82507CDBF006D5BEC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C84F72507CDBF006D5BEC /* Model.swift */; };
 		E954A37A25067AA600ABA555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954A37925067AA600ABA555 /* AppDelegate.swift */; };
 		E954A37C25067AA600ABA555 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954A37B25067AA600ABA555 /* SceneDelegate.swift */; };
 		E954A38125067AA600ABA555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E954A37F25067AA600ABA555 /* Main.storyboard */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E94C84F72507CDBF006D5BEC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E954A37625067AA600ABA555 /* JhMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JhMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E954A37925067AA600ABA555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E954A37B25067AA600ABA555 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -37,6 +39,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E94C84F62507CD97006D5BEC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E94C84F72507CDBF006D5BEC /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		E954A36D25067AA600ABA555 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +66,7 @@
 		E954A37825067AA600ABA555 /* JhMemo */ = {
 			isa = PBXGroup;
 			children = (
+				E94C84F62507CD97006D5BEC /* Model */,
 				E954A37925067AA600ABA555 /* AppDelegate.swift */,
 				E954A37B25067AA600ABA555 /* SceneDelegate.swift */,
 				E954A37F25067AA600ABA555 /* Main.storyboard */,
@@ -141,6 +152,7 @@
 				E954A37A25067AA600ABA555 /* AppDelegate.swift in Sources */,
 				E954A37C25067AA600ABA555 /* SceneDelegate.swift in Sources */,
 				E954A38425067AA600ABA555 /* JhMemo.xcdatamodeld in Sources */,
+				E94C84F82507CDBF006D5BEC /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
