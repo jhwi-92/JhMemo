@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		E94C84F82507CDBF006D5BEC /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C84F72507CDBF006D5BEC /* Model.swift */; };
 		E94C84FA2507D1BD006D5BEC /* MemoListTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C84F92507D1BD006D5BEC /* MemoListTableViewController.swift */; };
+		E94C84FC250916A5006D5BEC /* ComposeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E94C84FB250916A5006D5BEC /* ComposeViewController.swift */; };
 		E954A37A25067AA600ABA555 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954A37925067AA600ABA555 /* AppDelegate.swift */; };
 		E954A37C25067AA600ABA555 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E954A37B25067AA600ABA555 /* SceneDelegate.swift */; };
 		E954A38125067AA600ABA555 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E954A37F25067AA600ABA555 /* Main.storyboard */; };
@@ -20,6 +21,7 @@
 /* Begin PBXFileReference section */
 		E94C84F72507CDBF006D5BEC /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
 		E94C84F92507D1BD006D5BEC /* MemoListTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MemoListTableViewController.swift; sourceTree = "<group>"; };
+		E94C84FB250916A5006D5BEC /* ComposeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ComposeViewController.swift; sourceTree = "<group>"; };
 		E954A37625067AA600ABA555 /* JhMemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JhMemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E954A37925067AA600ABA555 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E954A37B25067AA600ABA555 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				E954A38A25067AA800ABA555 /* Info.plist */,
 				E954A38225067AA600ABA555 /* JhMemo.xcdatamodeld */,
 				E94C84F92507D1BD006D5BEC /* MemoListTableViewController.swift */,
+				E94C84FB250916A5006D5BEC /* ComposeViewController.swift */,
 			);
 			path = JhMemo;
 			sourceTree = "<group>";
@@ -155,6 +158,7 @@
 				E954A37A25067AA600ABA555 /* AppDelegate.swift in Sources */,
 				E954A37C25067AA600ABA555 /* SceneDelegate.swift in Sources */,
 				E94C84FA2507D1BD006D5BEC /* MemoListTableViewController.swift in Sources */,
+				E94C84FC250916A5006D5BEC /* ComposeViewController.swift in Sources */,
 				E954A38425067AA600ABA555 /* JhMemo.xcdatamodeld in Sources */,
 				E94C84F82507CDBF006D5BEC /* Model.swift in Sources */,
 			);
