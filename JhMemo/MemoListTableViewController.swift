@@ -54,6 +54,7 @@ class MemoListTableViewController: UITableViewController {
 
         //목적어 구현 옵저버 해제필수! 메모리낭비
         token = NotificationCenter.default.addObserver(forName: ComposeViewController.newMemoDidInsert, object: nil, queue: OperationQueue.main) { [weak self](noti) in
+            
             self?.tableView.reloadData()
         }
         
