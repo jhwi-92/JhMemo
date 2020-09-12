@@ -25,8 +25,8 @@ class ComposeViewController: UIViewController {
             return
         }
         
-        let newMemo = Memo(content: memo)
-        Memo.dummyMemoList.append(newMemo)
+//        let newMemo = Memo(content: memo)
+//        Memo.dummyMemoList.append(newMemo)
         
         //데이터를 전달..?
         NotificationCenter.default.post(name: ComposeViewController.newMemoDidInsert, object: nil)
